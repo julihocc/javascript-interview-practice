@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f1f2f3;
+      height: 100vh;
+  }
+  .container {
+      width: 95%;
+      max-width: 1160px;
+      margin: auto;
+  }
+  .star-rating {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      overflow: hidden;
+      flex-direction: row-reverse;
+      position: relative;
+  }
+  .star-rating > input {
+      display: none;
+  }
+  .star-rating > label {
+      margin-top: auto;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      background: url(https://static.vecteezy.com/system/resources/previews/001/189/080/non_2x/star-png.png)no-repeat center / 75%;
+      transition: 0.5s;
+  }
+  .star-rating > input:not(:checked) ~ label:hover,
+  .star-rating > input:not(:checked) ~ label:hover ~ label {
+      background: url(https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png)no-repeat center / 75%;
+  }
+  
+  .star-rating > input:checked ~ label,
+  .star-rating > input:checked ~ label ~ label {
+      background: url(https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png)no-repeat center / 75%;
+  }
