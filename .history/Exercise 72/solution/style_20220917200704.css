@@ -1,0 +1,21 @@
+#container {
+    position: relative;
+}
+
+#container li{
+    /*list-style: none;*/
+    margin: 0;
+    padding: 0;    
+    position: absolute;
+    display: block;
+}
+
+.off {
+    width: 100%;
+    position: absolute;
+}
+
+.on {
+    width: 100%;
+    position:absolute;
+}

@@ -1,0 +1,18 @@
+#container {
+    position: relative; 
+    box-sizing: border-box;   
+    height: 300px;
+    width: 500px;;
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+}
+
+#container li{      
+    list-style: none;
+    position: absolute;
+    height: 300px;
+    width: 100px;
+    display: block;  
+}
+
+

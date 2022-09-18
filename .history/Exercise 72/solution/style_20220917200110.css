@@ -1,0 +1,19 @@
+.container {
+    width: 500px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.containter li{
+
+}
+
+.off {
+    width: 100%;
+    position: absolute;
+}
+
+.on {
+    width: 100%;
+    position:absolute;
+}

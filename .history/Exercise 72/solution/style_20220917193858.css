@@ -1,0 +1,15 @@
+.container {
+    width: 500px;
+    position: relative;
+    display: flex;
+}
+
+.off {
+    width: 100%;
+    position: absolute;
+}
+
+.on {
+    width: 100%;
+    position:absolute;
+}

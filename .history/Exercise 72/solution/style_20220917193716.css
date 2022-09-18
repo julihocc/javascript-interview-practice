@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+}
+
+.on {
+    width: 100%;
+    position: absolute;
+}
+
+.off {
+    width: 100%;
+    
+}

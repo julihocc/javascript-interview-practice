@@ -1,0 +1,23 @@
+#container {
+    position: relative;
+}
+
+#container li{
+    margin: 0;
+    padding: 0;        
+    list-style: none;
+    position: absolute;
+    top: 0; 
+    height: 300px;
+    display: block;
+}
+
+#one {
+    left: 0px;
+    width: 100px;
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+    color: hsl(1, 1, 1)
+}
+
+#two

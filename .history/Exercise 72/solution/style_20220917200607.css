@@ -1,0 +1,20 @@
+#container {
+    position: relative;
+}
+
+.container li{
+    list-style: none;
+    position: absolute;
+    display: block;
+
+}
+
+.off {
+    width: 100%;
+    position: absolute;
+}
+
+.on {
+    width: 100%;
+    position:absolute;
+}

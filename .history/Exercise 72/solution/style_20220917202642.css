@@ -1,0 +1,33 @@
+#container {
+    position: relative;
+}
+
+#container li{
+    margin: 0;
+    padding: 0;        
+    list-style: none;
+    position: absolute;
+    top: 0; 
+    height: 300px;
+    width: 500;
+    display: block;
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+    color: blue
+}
+
+#one {
+    left: 0px;
+    width: 100px;
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+    color: blue
+}
+
+#two {
+    left: 100px;
+    width: 100px;    
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+    color: red;
+}
