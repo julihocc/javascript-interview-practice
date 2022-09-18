@@ -1,0 +1,35 @@
+#carousel {
+    width: 500px;
+    height: 300px;
+    margin: 0;
+}
+
+#carousel ul {
+    list-style: none;
+    transition: left .3s linear;
+    animation: animate 15s infinite;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    
+    height: 300px;
+}
+
+#carousel img{
+    height: auto;
+}
+
+@keyframes animate {
+    20% {
+        left: 0;
+    }
+    40% {
+        left: -400px;
+    }
+    60% {
+        left: -800px;
+    }
+}
+

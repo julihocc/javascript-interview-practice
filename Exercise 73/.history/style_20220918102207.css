@@ -1,0 +1,44 @@
+
+
+#carousel {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#carousel ul {
+    position: absolute;
+    list-style: none;
+    transition: left .3s linear;
+    animation: animate 5s infinite;
+}
+
+#carousel li {
+    position: relative;
+    display: inline-block;
+}
+
+.photo {
+    width: 500px;
+    height: 300px;
+}
+
+#carousel img{
+    width: 500px;
+    height: 100%;
+}
+
+@keyframes animate {
+    20% {
+        left: -500;
+    }
+    40% {
+        left: -1000px;
+    }
+    60% {
+        left: -1500px;
+    }
+}
+

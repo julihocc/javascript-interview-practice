@@ -1,0 +1,37 @@
+.div {
+    position: relative;
+}
+
+#carousel ul {
+    position: absolute;
+    left: 0;    
+    top: -15px; 
+    width: 500px;   
+    transition: left .3s linear;
+    animation: animate 15s infinite;
+}
+
+.photos {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+
+.photos img{ 
+    width: 500px;
+    height: 300px;
+}
+
+@keyframes animate{
+    0%{
+        left: -500px
+    }
+    50%{
+        left: -500px
+    }
+    100%{
+        left: -500px
+    }
+}
+}
+}

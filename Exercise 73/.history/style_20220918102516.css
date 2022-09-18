@@ -1,0 +1,46 @@
+*, *::after, *::before {    
+    box-sizing: border-box;
+}
+
+#carousel {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#carousel ul {
+    position: absolute;
+    list-style: none;
+    transition: left 5s;
+    animation: animate 15s infinite;
+}
+
+#carousel li {
+    
+    display: inline-block;
+}
+
+.photo {
+    width: 500px;
+    height: 300px;
+}
+
+#carousel img{
+    width: 500px;
+    height: 100%;
+}
+
+@keyframes animate {
+    20% {
+        left: 20%;
+    }
+    40% {
+        left: 40%;
+    }
+    60% {
+        left: 60%;
+    }
+}
+

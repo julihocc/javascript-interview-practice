@@ -1,0 +1,38 @@
+*{
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+#carousel {
+    position: absolute;
+    overflow: hidden;
+}
+
+#carousel ul {
+    position: absolute;
+    list-style: none;
+    transition: 1s;
+    animation: animate 10s infinite;
+}
+
+#carousel li {
+    position: relative;    
+}
+
+@keyframes animate {
+    
+    0% {
+        bottom: -000px;
+    }
+    33% {
+        bottom: 300px;
+    }
+    66% {
+        bottom: 600px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+

@@ -1,0 +1,16 @@
+.div {
+    position: relative;
+}
+
+#carousel ul {
+    position: absolute;
+    left: 0;    
+    top: -15px; 
+    width: 500px;   
+    transition: left .3;
+
+.photos {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}

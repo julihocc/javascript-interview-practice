@@ -1,0 +1,15 @@
+.div {
+    position: relative;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+.photos {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
