@@ -8,29 +8,29 @@
     justify-content: center;
     --reorientation: row;
     --wrapper-width: 80%;
-    --menu-width: 30%;
+    --menu-width: 20%;
 }
 
 #wrapper {
     padding: 10px;
-    position: relative;
+    position: relative;    
     width: var(--wrapper-width);
     background-color: lightgray;
     display: flex;
-    flex-direction: var(--reorientation);
+    flex-direction: var(--reorientation);    
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#select {
+#select{
     width: var(--menu-width);
     background-color: greenyellow;
 }
 
-#menu {
+#menu  {    
     width: 50%;
-    margin: 1%;
+    margin: 50%;
     background-color: red;
     display: flex;
     flex-direction: var(--reorientation);
@@ -43,6 +43,7 @@
     padding: 2px;
     border: 3px solid #73AD21;
     text-align: center;
-    background-color: blue;
-    color: wheat
+    background-color: blue;    
+    color: wheat    
 }
+
