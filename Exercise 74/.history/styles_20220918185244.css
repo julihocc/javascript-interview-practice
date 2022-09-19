@@ -1,0 +1,40 @@
+* {   
+    box-sizing: border-box; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background-color: lightgray;
+}
+
+header {
+    border-style: solid;
+    border-color: blue
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.content {    
+    width: 40%;
+    background-color: greenyellow;
+    border-style; s0lid
+}
+
+.side {
+    width: 20%;
+    background-color: orangered;
+}
+
+footer {
+    width: 100%;
+}
+
+

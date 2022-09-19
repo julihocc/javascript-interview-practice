@@ -1,0 +1,30 @@
+* {   
+    box-sizing: border-box; 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+header {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    fle
+}
+
+.content, .side {
+    height: 200px;
+    width: 100%;
+}
+
+footer 
+

@@ -1,0 +1,15 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 200px;
+    width: ;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}

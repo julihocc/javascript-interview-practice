@@ -1,0 +1,27 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 100px;
+    border-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 100px;
+    border-color: black;
+}
+
+.header {
+    
+}
+.content {
+    height: 200px;
+    width: 100%;
+    border: 100px;
+    border-color: black;
+}

@@ -1,0 +1,30 @@
+* {
+    
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 100px;
+    border-color: black;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.content {
+    height: 200px;
+    width: 100%;
+    border: 100px;
+    border-color: black;
+}

@@ -1,0 +1,14 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}

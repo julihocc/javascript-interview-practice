@@ -1,0 +1,38 @@
+* {   
+    box-sizing: border-box; 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.content {    
+    width: 40%;
+    background-color: greenyellow;
+}
+
+side {
+    width: 20%;
+    background-color: orange;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+
+

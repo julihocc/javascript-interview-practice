@@ -1,0 +1,9 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    border: 1px;
+    
+}
+
+.wrapper {
+    display: flex;
+}
