@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+
+.select-position {
+    width: 20%;
+    height
+    background-color: greenyellow;
+}
+
+.menu  {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    padding: 10%;
+}

@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+
+.select-position 
+
+.menu  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    padding: 10%;
+}
