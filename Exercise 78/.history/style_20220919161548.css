@@ -1,0 +1,15 @@
+.element {
+    width: 10px;
+    height: 10px;
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: red;
+    }
+  }
+  

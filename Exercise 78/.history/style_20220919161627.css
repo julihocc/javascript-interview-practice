@@ -1,0 +1,15 @@
+.element {
+    width: 100px;
+    height: 100px;
+    animation: color-change 10s;
+  }
+  
+  @keyframes color-change {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: red;
+    }
+  }
+  
