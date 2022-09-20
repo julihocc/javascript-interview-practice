@@ -13,9 +13,10 @@ html {
 #container {
     height: 300px;
     width: 500px;        
+    background: cyan 0 0;
     background-size: 500px 300px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 /* permanent effect */
@@ -26,6 +27,7 @@ html {
 }
 
 .chbx-aux {
+    background-color: salmon;
     height: 300px;
     width: 100px;
 }
@@ -83,13 +85,13 @@ html {
 #label5 {
     background: var(--off);    
     background-size: 500px 300px;
-    background-position: -400px 0px;
+    background-position: 400px 0px;
 }
 
 #label1:hover ~ #label5, #toggle1:checked ~ #label5, #label2:hover ~ #label5, #toggle2:checked ~ #label5, #label3:hover ~ #label5, #toggle3:checked ~ #label5, #label4:hover ~ #label5, #toggle4:checked ~ #label5, #label5:hover, #toggle5:checked ~ #label5 {
     background: var(--on);    
     background-size: 500px 300px;
-    background-position: -400px 0px;
+    background-position: -200px 0px;
 }
 
 

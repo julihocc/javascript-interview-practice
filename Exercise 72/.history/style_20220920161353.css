@@ -26,6 +26,7 @@ html {
 }
 
 .chbx-aux {
+    background-color: salmon;
     height: 300px;
     width: 100px;
 }

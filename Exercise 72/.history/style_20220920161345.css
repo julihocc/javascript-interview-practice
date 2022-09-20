@@ -13,6 +13,7 @@ html {
 #container {
     height: 300px;
     width: 500px;        
+    background: cyan 0 0;
     background-size: 500px 300px;
     display: flex;
     flex-direction: row-reverse;
@@ -26,6 +27,7 @@ html {
 }
 
 .chbx-aux {
+    background-color: salmon;
     height: 300px;
     width: 100px;
 }
