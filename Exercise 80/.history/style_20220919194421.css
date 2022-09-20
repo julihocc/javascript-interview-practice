@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.center {
+    background-color: lightblue;
+    padding: auto;
+
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}

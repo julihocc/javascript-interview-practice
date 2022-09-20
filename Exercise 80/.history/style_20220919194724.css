@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+.center {
+    background-color: lightblue;
+
+}
+
+.text {
+    text-align: center;
+    position: relative;
+}

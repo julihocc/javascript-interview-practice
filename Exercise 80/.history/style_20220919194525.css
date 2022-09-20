@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.center {
+    background-color: lightblue;
+    padding: auto;
+
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
