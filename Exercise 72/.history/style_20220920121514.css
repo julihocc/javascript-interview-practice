@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    border:0;
+    padding: 0;
+}
+#container {
+    background-color: lightskyblue;
+    box-sizing: border-box;   
+    height: 300px;
+    width: 500px;
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px auto;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+}
+
+#container div{   
+    /* background-color: lightgreen; */
+    box-sizing: inherit;   
+    height: 300px;
+    width: 100px;
+}
+
+
+

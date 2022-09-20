@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    border: 0px solid;
+    padding: 0;
+    margin:0;
+}
+
+#container {
+    height: 300px;
+    width: 500px;        
+    background: url("./five-star-off.png") 0 0;
+    background-size: 500px 300px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+}
+
+/* permanent effect */
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
+.chbx-aux {
+    background-color: salmon;
+    height: 300px;
+    width: 100px;
+    border: 1px solid red
+}
+
+#label1 {
+    background: url("./five-star-on.png");    
+    background-size: 500px 300px;
+    background-position: 0px 0px;
+}
+
+#label1:hover {
+    background: url("./five-star-off.png");    
+    background-size: 500px 300px;
+    background-position: 0px 0px;
+}
+
+#toggle1:checked ~ #label1 {
+    
+}
+
+#label2 {
+    background: url("./five-star-on.png");    
+    background-size: 500px 300px;
+    background-position: 100px 0px;
+}
+
+#label3 {
+    background: url("./five-star-on.png");    
+    background-size: 500px 300px;
+    background-position: 200px 0px;
+}
+
+#label4 {
+    background: url("./five-star-on.png");    
+    background-size: 500px 300px;
+    background-position: 300px 0px;
+}
+
+#label5 {
+    background: url("./five-star-on.png");    
+    background-size: 500px 300px;
+    background-position: 400px 0px;
+}
+
+
+
+
+
+

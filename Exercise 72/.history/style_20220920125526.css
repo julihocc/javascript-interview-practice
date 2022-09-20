@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    border: 0px solid;
+    padding: 0;
+    margin:0;
+}
+
+#container {
+    height: 300px;
+    width: 500px;        
+    background: url("./five-star-off.png") 0 0;
+    background-size: contain;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    align-items: stretch;
+}
+
+/* permanent effect */
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
+.chbx-aux {
+    height: 300px;
+    width: 100px;
+}
+
+#label1 {
+    background: url("./five-star-on.png");    
+    background-size: 500px auto;
+}
+
+#label2 {
+    background: url("./five-star-on.png");    
+    background-size: 500px auto;
+    
+}
+
+
+
+
+
