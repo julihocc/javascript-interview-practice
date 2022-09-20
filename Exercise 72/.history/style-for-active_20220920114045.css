@@ -1,0 +1,63 @@
+
+/* permanent effect */
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
+.chbx-aux {
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    padding: 0;
+    border: 0;
+}
+
+#label1 {
+    left: 10px;
+    background-color: lightblue;
+}
+
+#label2 {
+    left: 110px;
+    background-color: lightcoral;
+}
+
+#label3 {
+    left: 210px;
+    background-color: lightcyan;
+}
+
+#toggle3:checked ~ #label
+
+#toggle3:checked ~ #label4 {
+    background-color: yellow;
+}
+
+#toggle3:checked ~ #label5 {
+    background-color: green;
+}
+
+#label4 {
+    left: 310px;
+    background-color: lightgoldenrodyellow;
+}
+
+#toggle4:checked ~ #label4 {
+    background-color: yellow;
+}
+
+#toggle4:checked ~ #label5 {
+    background-color: green;
+}
+
+#label5 {
+    left: 410px;
+    background-color: lightgreen;
+}
+
+#toggle5:checked ~ #label5{
+    background-color: green;
+}

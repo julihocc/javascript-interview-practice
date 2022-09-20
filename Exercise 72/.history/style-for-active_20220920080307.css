@@ -1,0 +1,26 @@
+a {     
+    background-color: light;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+ }
+
+#four-a:hover{
+    background: url("./five-star-on.png");
+    background-size: 500px auto;
+    background-position: -300px 0;
+}
+
+#four-a:hover ~ #five{
+    background: url("./five-star-on.png");
+    background-size: 500px auto;
+    background-position: -400px 0;
+}
+
+#five-a:hover{
+    background: url("./five-star-on.png");
+    background-size: 500px auto;
+    background-position: -400px 0;
+}

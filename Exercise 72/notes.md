@@ -24,4 +24,10 @@
 
 *   [Implementing image sprites in CSS - CSS: Cascading Style Sheets | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS)
 
+*   [The "Checkbox Hack" (and things you can do with it) | CSS-Tricks - CSS-Tricks](https://css-tricks.com/the-checkbox-hack/)
+
+*   
+
+*   
+
     
