@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     width: 500px;
     height: 300px;
     margin: 0;
@@ -15,22 +14,21 @@
     transition: 1s linear;
     animation: animate 5s infinite;
     display: flex;
-    flex-direction: row;
 }
 
 @keyframes animate {
     
     0% {
-        right: 0px;
+        bottom: 0px;
     }
     33% {
-        right: 500px;
+        bottom: 300px;
     }
     66% {
-        right: 1000px;
+        bottom: 600px;
     }
     100% {
-        right: 1500px;
+        bottom: 0px;
     }
 }
 

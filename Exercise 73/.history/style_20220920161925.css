@@ -24,13 +24,13 @@
         right: 0px;
     }
     33% {
-        right: 500px;
+        right: 300px;
     }
     66% {
-        right: 1000px;
+        right: 600px;
     }
     100% {
-        right: 1500px;
+        right: 0px;
     }
 }
 

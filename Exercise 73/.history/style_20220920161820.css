@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     width: 500px;
     height: 300px;
     margin: 0;
@@ -21,16 +20,16 @@
 @keyframes animate {
     
     0% {
-        right: 0px;
+        left: 0px;
     }
     33% {
-        right: 500px;
+        left: 300px;
     }
     66% {
-        right: 1000px;
+        bottom: 600px;
     }
     100% {
-        right: 1500px;
+        bottom: 0px;
     }
 }
 
