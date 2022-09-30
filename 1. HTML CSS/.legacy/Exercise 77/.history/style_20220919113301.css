@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    flex-direction: row;    
+    justify-content: ;
+}
+
+.menu  {
+    display: flex;
+    flex-direction: row;
+}

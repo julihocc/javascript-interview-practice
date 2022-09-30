@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-position {
+    width: 20%;
+    height: 50%;
+    background-color: greenyellow;
+}
+
+.menu  {
+    height: 100px; 
+    width: 80%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    height: 50px;
+    background-color: blue;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-position {
+    margin: auto;
+    height: 50%;
+    background-color: greenyellow;
+}
+
+.menu  {
+    height: 50px; 
+    width: 80%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item {
+    margin: auto;
+    width: 20%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    height: 80%; 
+    text-align: center;
+    margin: ;
+    background-color: blue;    
+    color: wheat    
+}
+
