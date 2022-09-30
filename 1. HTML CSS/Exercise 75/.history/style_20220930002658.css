@@ -1,7 +1,6 @@
 .wrapper {
     position: relative;
-    left: 10vw;   
-    font-family: monospace;
+    left: 10vw; 
 }
 
 .letter{    
@@ -25,13 +24,13 @@
 }
 
 #l3, #l3:hover {
-    left: 30vw;
+    left: 27vw;
 }
 
 #l4, #l4:hover {
-    left: 40vw;
+    left: 34vw;
 }
 
 #l5, #l5:hover {
-    left: 50vw;
+    left: 40vw;
 }
