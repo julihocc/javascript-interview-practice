@@ -6,6 +6,10 @@
 }
 
 
+.menu {
+    background-color: lightblue;
+}
+
 .items {
     background-color: lightcoral;
     display: flex;
@@ -24,7 +28,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: ;
 }
 
 .display {
@@ -32,36 +36,23 @@
     position: relative
 }
 
-.hidden {
-    position: absolute;
-    left: -9999px;
-}
-
 .modes {
-    display: none;
-}
-
-#select-display:checked ~ .modes {
-    background-color: lightseagreen; 
-    height: 50vh;
-    width: 50vw; 
+    background-color: lightseagreen;
     position: absolute;
-    left: 25vw;
-    top: 10vh;
+    left: 17px;
+    top: 65px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;   
+    width: 80px; 
 }
 
-.mode {  
-    background-color: lightgrey;
+.mode {
     margin: 5px;
-    width: 100%px;
-    height: 100%;
+    background-color: lightgrey;
+    width: px;
+    height: 20px;
     border: 1px solid black;
     text-align: center;
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;  
 }

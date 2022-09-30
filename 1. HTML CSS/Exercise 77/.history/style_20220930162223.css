@@ -1,0 +1,10 @@
+.menu {
+    background-color: lightblue;
+}
+
+.items {
+    background-color: light;
+    display: flex;
+    flex-direction: row;
+    flex
+}

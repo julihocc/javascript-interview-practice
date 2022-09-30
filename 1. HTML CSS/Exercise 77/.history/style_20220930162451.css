@@ -1,0 +1,22 @@
+.menu {
+    background-color: lightblue;
+}
+
+.items {
+    margin:10px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.display {
+    
+    position: relative
+}
+
+.modes {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}

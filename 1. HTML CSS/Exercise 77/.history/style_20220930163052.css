@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.menu {
+    background-color: lightblue;
+}
+
+.items {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    hight: 100px;
+}
+
+.display {
+    background-color: lightgreen;
+    margin: 10px;
+    position: relative
+}
+
+.modes {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+li {
+    background-color: lightgrey;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    list-style: none;
+}

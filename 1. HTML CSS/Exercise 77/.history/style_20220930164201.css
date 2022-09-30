@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.menu {
+    background-color: lightblue;
+}
+
+.main {
+    margin: 10px auto;
+    background-color: lightgrey;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    list-style: none;
+}
+
+.items {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75px;
+}
+
+.display {
+    background-color: lightgreen;
+    position: relative
+}
+
+.modes {
+    background-color: lightpink;
+    position: absolute;
+    left:17px;
+    top: 100px;
+}
+
+.mode {
+    margin: 2px;
+}
