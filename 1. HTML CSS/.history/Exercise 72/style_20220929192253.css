@@ -1,20 +1,21 @@
 * {
     box-sizing: border-box;
-    border: 0px solid;
+    border: 1px solid;
     padding: 0;
     margin:0;
 }
 
 html {    
-    --off: url("./five-star-off-plain.png");
-    --on: url("./five-star-on-plain.png");
+    --off: url("./five-star-off.png");
+    --on: url("./five-star-on.png");
 }
 
 #container {
     height: 300px;
     width: 500px;        
+    background-size: 500px 300px;
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     background: var(--off);    
     background-size: 500px 300px;
     background-position: 0px 0px;
@@ -30,6 +31,12 @@ html {
 .chbx-aux {
     height: 300px;
     width: 100px;
+}
+
+#label1 {
+    /* background: var(--off);     */
+    /* background-size: 500px 300px; */
+    /* background-position: 0px 0px; */
 }
 
 #label1:hover, #toggle1:checked ~ #label1{

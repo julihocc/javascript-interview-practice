@@ -1,23 +1,21 @@
 * {
     box-sizing: border-box;
-    border: 0px solid;
+    border: 1px solid;
     padding: 0;
     margin:0;
 }
 
 html {    
-    --off: url("./five-star-off-plain.png");
-    --on: url("./five-star-on-plain.png");
+    --off: url("./five-star-off.png");
+    --on: url("./five-star-on.png");
 }
 
 #container {
     height: 300px;
     width: 500px;        
+    background-size: 500px 300px;
     display: flex;
     flex-direction: row-reverse;
-    background: var(--off);    
-    background-size: 500px 300px;
-    background-position: 0px 0px;
 }
 
 /* permanent effect */
@@ -30,6 +28,14 @@ html {
 .chbx-aux {
     height: 300px;
     width: 100px;
+    background-size: 500px 300px;
+    background-position: 0px 0px;
+}
+
+#label1 {
+    background: var(--off);    
+    /* background-size: 500px 300px; */
+    /* background-position: 0px 0px; */
 }
 
 #label1:hover, #toggle1:checked ~ #label1{
@@ -38,10 +44,23 @@ html {
     background-position: 0px 0px;
 }
 
+#label2 {
+    background: var(--off);    
+    background-size: 500px 300px;
+    background-position: -100px 0px;
+}
+
+
 #label1:hover ~ #label2, #toggle1:checked ~ #label2, #label2:hover, #toggle2:checked ~ #label2{
     background: var(--on);    
     background-size: 500px 300px;
     background-position: -100px 0px;
+}
+
+#label3 {
+    background: var(--off);    
+    background-size: 500px 300px;
+    background-position: -200px 0px;
 }
 
 #label1:hover ~ #label3, #toggle1:checked ~ #label3, #label2:hover ~ #label3, #toggle2:checked ~ #label3, 
@@ -51,10 +70,22 @@ html {
     background-position: -200px 0px;
 }
 
+#label4 {
+    background: var(--off);    
+    background-size: 500px 300px;
+    background-position: -300px 0px;
+}
+
 #label1:hover ~ #label4, #toggle1:checked ~ #label4, #label2:hover ~ #label4, #toggle2:checked ~ #label4, #label3:hover ~ #label4, #toggle3:checked ~ #label4,#label4:hover, #toggle4:checked ~ #label4 {
     background: var(--on);    
     background-size: 500px 300px;
     background-position: -300px 0px;
+}
+
+#label5 {
+    background: var(--off);    
+    background-size: 500px 300px;
+    background-position: -400px 0px;
 }
 
 #label1:hover ~ #label5, #toggle1:checked ~ #label5, #label2:hover ~ #label5, #toggle2:checked ~ #label5, #label3:hover ~ #label5, #toggle3:checked ~ #label5, #label4:hover ~ #label5, #toggle4:checked ~ #label5, #label5:hover, #toggle5:checked ~ #label5 {
