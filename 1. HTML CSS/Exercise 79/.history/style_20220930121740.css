@@ -18,7 +18,7 @@
 @media (max-width: 520px){
     .container {
         margin: auto;
-        height: 35vh;
+        height: 10vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(8, 100%);
@@ -30,7 +30,7 @@
     .container {
         margin: auto;
         width: 720px;
-        height: 35vh;
+        height: 20vh;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 100%);
