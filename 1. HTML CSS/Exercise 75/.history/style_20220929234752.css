@@ -1,0 +1,14 @@
+.wrapper {
+    position
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  100px;
+}
+
+.letter:hover {
+    font-size: 500px;
+}

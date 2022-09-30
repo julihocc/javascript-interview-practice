@@ -1,6 +1,9 @@
 .wrapper {
     position: relative;
-    left: 10vw; 
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* align-items: center;     */
     /* font-size:  100px; */
 }
 
@@ -13,7 +16,7 @@
 .letter:hover {
     position: absolute;
     font-size: 300px;
-    top: 5vh;
+    top: 0;
 }
 
 #l1, #l1:hover {
@@ -25,13 +28,13 @@
 }
 
 #l3, #l3:hover {
-    left: 27vw;
+    left: 30vw;
 }
 
 #l4, #l4:hover {
-    left: 34vw;
+    left: 40vw;
 }
 
 #l5, #l5:hover {
-    left: 40vw;
+    left: 50vw;
 }

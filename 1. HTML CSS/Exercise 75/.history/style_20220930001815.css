@@ -1,0 +1,40 @@
+.wrapper {
+    position: relative;
+    height: 300px;    
+    top: 50vh;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* align-items: center;     */
+    font-size:  100px;
+}
+
+.letter{    
+    position: absolute;
+}
+
+.letter:hover {
+    position: absolute;
+    font-size: 300px;
+    
+}
+
+#l1, #l1:hover {
+    left: 16vw;
+}
+
+#l2, #l2:hover {
+    left: 32vw;
+}
+
+#l3, #l3:hover {
+    left: 48vw;
+}
+
+#l4, #l4:hover {
+    left: 64vw;
+}
+
+#l5, #l5:hover {
+    left: 80vw;
+}

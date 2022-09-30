@@ -1,0 +1,39 @@
+.wrapper {
+    position: relative
+    top: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  100px;
+}
+
+.letter{    
+    position: absolute;
+}
+
+.letter:hover {
+    font-size: 500px;
+}
+
+#l1, #l1 {
+    left: 16vw;
+}
+
+#l2 {
+    left: 32vw;
+}
+
+#l3 {
+    left: 48vw;
+}
+
+#l4 {
+    left: 64vw;
+}
+
+#l5 {
+    left: 80vw;
+}

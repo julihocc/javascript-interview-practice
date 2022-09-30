@@ -1,37 +1,39 @@
 .wrapper {
     position: relative;
-    left: 10vw; 
-    /* font-size:  100px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* align-items: center;     */
+    font-size:  100px;
 }
 
 .letter{    
     position: absolute;    
-    font-size: 100px;
+    font-size: 300px;
     top: 20vh;
 }
 
 .letter:hover {
     position: absolute;
     font-size: 300px;
-    top: 5vh;
 }
 
 #l1, #l1:hover {
-    left: 10vw;
+    left: 16vw;
 }
 
 #l2, #l2:hover {
-    left: 20vw;
+    left: 32vw;
 }
 
 #l3, #l3:hover {
-    left: 27vw;
+    left: 48vw;
 }
 
 #l4, #l4:hover {
-    left: 34vw;
+    left: 64vw;
 }
 
 #l5, #l5:hover {
-    left: 40vw;
+    left: 80vw;
 }
