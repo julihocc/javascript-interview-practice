@@ -24,7 +24,7 @@
 
 .item {
     margin: auto;
-    background-color: lightsalmon;
+    /* background-color: lightgrey; */
     width: 80px;
     height: 50px;
     border: 1px solid black;
@@ -57,7 +57,7 @@
 }
 
 .mode {  
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     margin: 5px;
     width: 100%px;
     height: 100%;

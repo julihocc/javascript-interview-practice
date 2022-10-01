@@ -3,17 +3,16 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
 }
 
 .menu{
     position: relative;
-    /* background-color: brown; */
+    top:100px;
+    background-color: brown;
 }
 
 .items {
-    /* background-color: lightcoral; */
+    background-color: lightcoral;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -24,7 +23,7 @@
 
 .item {
     margin: auto;
-    background-color: lightsalmon;
+    background-color: lightgrey;
     width: 80px;
     height: 50px;
     border: 1px solid black;
@@ -41,12 +40,12 @@
 }
 
 .hidden {
-    position: absolute;
-    left: -9999px;
+    /* position: absolute;
+    left: -9999px; */
 }
 
 #select-display:checked ~ .menu .modes {
-    /* background-color: lightseagreen;  */
+    background-color: lightseagreen; 
     height: 100px;
     width: 80px;
     top: 50px;
@@ -74,7 +73,7 @@
 }
 
 #left:checked ~ .menu .modes {
-    /* background-color: lightseagreen; */
+    background-color: blueviolet;
     height: 100px;
     width: 80px;
     top: 0;
@@ -89,40 +88,11 @@
 #left:checked ~ .menu .items{
     position: absolute;
     left:0;
-    /* background-color: lightgrey; */
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 450px;
     width: 100px;
     margin: auto;
-}
-
-#right:checked ~ .menu .modes {
-    /* background-color: blueviolet; */
-    height: 100px;
-    width: 80px;
-    top: 0;
-    right: 80px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;  
-    margin: auto;
-}
-
-#right:checked ~ .menu .items{
-    position: absolute;
-    right:0;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 450px;
-    width: 100px;
-    margin: auto;
-}
-
-#select-display:not(:checked) ~ .menu .modes  {
-    display: none;
 }

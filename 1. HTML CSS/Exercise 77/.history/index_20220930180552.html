@@ -10,32 +10,20 @@
 </head>
 
 <body>
-    <input type="checkbox" name="" id="select-display" class="hidden">
-    <input type="radio" name="menu-pos" id="left" class="hidden">
-    <input type="radio" name="menu-pos" id="top" class="hidden" checked>
-    <input type="radio" name="menu-pos" id="right" class="hidden">
     <nav class="menu">
         <ul class="items">
             <li class="item display">
-                <label class="v-center" for="select-display" id="label-select-display">
+                <input type="checkbox" name="" id="select-display" class="hidden">
+                <label class="v-center" for="select-display">
                     Select Display
                 </label>
                 <ul class="modes">
                     <li class="mode">
-                        <label for="left" class="v-center">
-                            Left
-                        </label>
+                        <input type="checkbox" name="" id="left" class="hidden">
+                        label.
                     </li>
-                    <li class="mode">
-                        <label for="top" class="v-center">
-                            Top
-                        </label>
-                    </li>
-                    <li class="mode">
-                        <label for="right" class="v-center">
-                            Right
-                        </label>
-                    </li>
+                    <li class="mode"><p class="v-center">Right</p></li>
+                    <li class="mode"><p class="v-center">Top</p></li>
                 </ul>
             </li>
             <li class="item">
