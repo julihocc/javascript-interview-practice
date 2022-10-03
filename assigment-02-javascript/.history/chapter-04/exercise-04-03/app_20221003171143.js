@@ -1,0 +1,12 @@
+class MyNumber {
+    constructor = (initialNumber) => {    
+        console.log(typeof initialNumber)    
+        assert(typeof initialNumber === "number");
+        this.value = initialNumber;
+        this.getValue = () => this.value;
+    };
+}
+
+const n = new MyNumber(10);
+console.log(n);
+console.log(n.getValue());
