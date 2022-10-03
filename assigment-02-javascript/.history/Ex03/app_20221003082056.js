@@ -1,9 +1,11 @@
 cont myMath = {
 
     add(arr) {
-        return arr.reduce( (acc,x) => {
-            acc + x
+        cont temp = arr.reduce( (acc,x) => {
+           return acc + x
         }, 0)
+
+        console.log(temp);
     }
 }
 
