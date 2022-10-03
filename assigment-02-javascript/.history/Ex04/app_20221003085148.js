@@ -1,6 +1,5 @@
-const data = Array.from(Array(1600).keys());
-// console.log("🚀 ~ file: app.js ~ line 2 ~ data", data)
-
+const data = new Array(1600);
+console.log(data);
 
 // function Person(fname, lname) {
 //     this.firstName = fname;
@@ -16,17 +15,4 @@ const data = Array.from(Array(1600).keys());
 
 //   console.log(personOne.f("firstName"));
 
-function Image(data, width, height, path) {
-    this.data = data;
-    this.width = width;
-    this.height = height;
-    this.path = path;
-
-    this.getPixel = (row,column) => data[row*width+column]-1;
-
-}
-
-const img = new Image(data, 40, 40, 'myImage');
-console.log(img.getPixel(2,5));
-
-
+function Image()

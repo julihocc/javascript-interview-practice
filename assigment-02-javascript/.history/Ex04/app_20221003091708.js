@@ -22,11 +22,9 @@ function Image(data, width, height, path) {
     this.height = height;
     this.path = path;
 
-    this.getPixel = (row,column) => data[row*width+column]-1;
+    this.
 
 }
 
-const img = new Image(data, 40, 40, 'myImage');
-console.log(img.getPixel(2,5));
-
-
+const fakeIm = ("hi");
+console.log("🚀 ~ file: app.js ~ line 24 ~ fakeIm", fakeIm)

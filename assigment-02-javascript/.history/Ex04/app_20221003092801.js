@@ -22,11 +22,11 @@ function Image(data, width, height, path) {
     this.height = height;
     this.path = path;
 
-    this.getPixel = (row,column) => data[row*width+column]-1;
+    this.getPixel = (row,column) => data[row*width+column];
 
 }
 
 const img = new Image(data, 40, 40, 'myImage');
-console.log(img.getPixel(2,5));
+console.log(img);
 
 

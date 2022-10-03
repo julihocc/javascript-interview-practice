@@ -27,6 +27,6 @@ function Image(data, width, height, path) {
 }
 
 const img = new Image(data, 40, 40, 'myImage');
-console.log(img.getPixel(2,5));
+console.log(img.getPixel(,5));
 
 
