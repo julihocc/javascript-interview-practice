@@ -1,0 +1,3 @@
+function Bank() {
+    this.client : {};    
+}
