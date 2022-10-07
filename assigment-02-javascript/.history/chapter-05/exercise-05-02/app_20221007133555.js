@@ -23,7 +23,7 @@ function Building(id, address) {
         thisFloor.addRoom(newRoom);
     }
     this.getRoom = function(suite) {
-        let level = this.assignLevelToSuit(suite);
+        let level = this.assignLevelToSuit();
         let theFloor = floors[level];
         let theRoom = theFloor.getRooms()[suite];
         return theRoom
@@ -89,6 +89,7 @@ function Equipment(id, building, floor, room, user) {
 sbp = new Building("Scranton Business Park", "13927 Saticoy Street, Panorama City");
 sbp.addRoom(200, "Dunder Mifflin Ppaper")
 dmp = sbp.getRoom(200)
+console.log(dmp.getCompany());
 sbp.printDirectory()
 
 

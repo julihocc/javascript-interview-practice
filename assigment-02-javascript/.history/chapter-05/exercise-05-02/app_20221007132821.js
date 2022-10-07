@@ -2,10 +2,7 @@ function Building(id, address) {
     thisBuilding = this;
     id,
     address,
-    floors = {},
-    this.assignLevelToSuit = function(suite) {
-         return Math.floor(suite/100)
-    }
+    floors = {}
     this.addFloor = function(level){
         let newFloor = new Floor(thisBuilding, level);
         floors[level] = newFloor;
@@ -14,7 +11,7 @@ function Building(id, address) {
         return floors
     }
     this.addRoom = function(suite, company=null) {
-        let level = this.assignLevelToSuit(suite);
+        
         if (!(level in floors)){
             thisBuilding.addFloor(level)
         }
@@ -22,8 +19,7 @@ function Building(id, address) {
         let newRoom = new Room(thisFloor, suite, company)
         thisFloor.addRoom(newRoom);
     }
-    this.getRoom = function(suite) {
-        let level = this.assignLevelToSuit(suite);
+    this.getRoom = function(level, suite) {
         let theFloor = floors[level];
         let theRoom = theFloor.getRooms()[suite];
         return theRoom
@@ -59,13 +55,10 @@ function Room(floor, suite, company=null) {
     floor, 
     suite, 
     company,
-    this.getFloor = function() {
-        return floor
-    }
-    this.getSuite = function() {
+    this.getSuite = function(){
         return suite
     } 
-    this.getCompany = function() {
+    this.getCompany = function(){
         return company
     }
 }
@@ -89,6 +82,7 @@ function Equipment(id, building, floor, room, user) {
 sbp = new Building("Scranton Business Park", "13927 Saticoy Street, Panorama City");
 sbp.addRoom(200, "Dunder Mifflin Ppaper")
 dmp = sbp.getRoom(200)
+console.log(dmp.getCompany());
 sbp.printDirectory()
 
 

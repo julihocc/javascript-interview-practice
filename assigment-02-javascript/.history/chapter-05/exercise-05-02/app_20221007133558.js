@@ -89,6 +89,7 @@ function Equipment(id, building, floor, room, user) {
 sbp = new Building("Scranton Business Park", "13927 Saticoy Street, Panorama City");
 sbp.addRoom(200, "Dunder Mifflin Ppaper")
 dmp = sbp.getRoom(200)
+console.log(dmp.getCompany());
 sbp.printDirectory()
 
 
