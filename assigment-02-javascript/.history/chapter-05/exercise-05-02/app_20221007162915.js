@@ -111,5 +111,3 @@ console.log(dwight.hardware)
 
 let whoHasPrinter = sbp.findEquipmentByID("Ex01")
 console.log(whoHasPrinter) 
-
-console.log(sbp.previousSearches)

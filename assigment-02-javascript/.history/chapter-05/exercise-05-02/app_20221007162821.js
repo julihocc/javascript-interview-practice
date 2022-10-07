@@ -74,7 +74,7 @@ function User(building, id, name, room) {
         this.id = id,
         this.name = name,
         this.room = room,
-        this.hardware = []
+        this.hardware = [],
 }
 
 function Equipment(building, id, model) {
@@ -109,7 +109,4 @@ console.log(printer.user)
 console.log(printer.room)
 console.log(dwight.hardware)
 
-let whoHasPrinter = sbp.findEquipmentByID("Ex01")
-console.log(whoHasPrinter) 
-
-console.log(sbp.previousSearches)
+sbp.findEquipmentByID()

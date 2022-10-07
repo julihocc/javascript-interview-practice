@@ -42,20 +42,15 @@ function Building(id, address) {
     }
 
     this.assignEquipmentToUser = function (equipmentID, userID) {
-        let thisEquipment = this.equipment[equipmentID];
-        let thisUser = this.users[userID];
+        thisEquipment = this.equipment[equipmentID];
+        thisUser = this.users[userID];
         thisEquipment.user = userID;
         thisEquipment.room = thisUser.room;
         thisUser.hardware.push(equipmentID);
     }
 
     this.findEquipmentByID = function(equipmentID) {
-        let timestamp = Date.now();
-        let index = [equipmentID, timestamp]  
-        let thisEquipment = this.equipment[equipmentID]
-        let currentUser = thisEquipment.user
-        this.previousSearches[index] = currentUser
-        return currentUser
+        let timestamp 
     }
 }
 
@@ -74,7 +69,7 @@ function User(building, id, name, room) {
         this.id = id,
         this.name = name,
         this.room = room,
-        this.hardware = []
+        this.hardware = [],
 }
 
 function Equipment(building, id, model) {
@@ -82,7 +77,7 @@ function Equipment(building, id, model) {
         this.id = id,
         this.model = model,
         this.room = null,
-        this.user = null
+        this.users = null
 }
 
 sbp = new Building("Scranton Business Park", "13927 Saticoy Street, Panorama City");
@@ -108,8 +103,3 @@ sbp.assignEquipmentToUser("Ex01", "Ux02")
 console.log(printer.user)
 console.log(printer.room)
 console.log(dwight.hardware)
-
-let whoHasPrinter = sbp.findEquipmentByID("Ex01")
-console.log(whoHasPrinter) 
-
-console.log(sbp.previousSearches)

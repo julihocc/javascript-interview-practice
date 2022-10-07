@@ -6,7 +6,6 @@ function Building(id, address) {
         this.rooms = {},
         this.equipment = {},
         this.users = {},
-        this.previousSearches = {},
 
         this.addRoom = function (room, company = null) {
             let level = Math.floor(room / 100);
@@ -42,20 +41,11 @@ function Building(id, address) {
     }
 
     this.assignEquipmentToUser = function (equipmentID, userID) {
-        let thisEquipment = this.equipment[equipmentID];
-        let thisUser = this.users[userID];
+        thisEquipment = this.equipment[equipmentID];
+        thisUser = this.users[userID];
         thisEquipment.user = userID;
         thisEquipment.room = thisUser.room;
         thisUser.hardware.push(equipmentID);
-    }
-
-    this.findEquipmentByID = function(equipmentID) {
-        let timestamp = Date.now();
-        let index = [equipmentID, timestamp]  
-        let thisEquipment = this.equipment[equipmentID]
-        let currentUser = thisEquipment.user
-        this.previousSearches[index] = currentUser
-        return currentUser
     }
 }
 
@@ -82,7 +72,7 @@ function Equipment(building, id, model) {
         this.id = id,
         this.model = model,
         this.room = null,
-        this.user = null
+        this.users = null
 }
 
 sbp = new Building("Scranton Business Park", "13927 Saticoy Street, Panorama City");
@@ -103,13 +93,3 @@ console.log(dwight.name)
 sbp.registerEquipment("Ex01", "Sabre printer")
 printer = sbp.equipment["Ex01"]
 console.log(printer.model)
-
-sbp.assignEquipmentToUser("Ex01", "Ux02")
-console.log(printer.user)
-console.log(printer.room)
-console.log(dwight.hardware)
-
-let whoHasPrinter = sbp.findEquipmentByID("Ex01")
-console.log(whoHasPrinter) 
-
-console.log(sbp.previousSearches)
