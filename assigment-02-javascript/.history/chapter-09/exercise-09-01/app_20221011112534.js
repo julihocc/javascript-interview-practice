@@ -1,0 +1,5 @@
+
+
+function dataParse(stringForObject) {
+
+}
