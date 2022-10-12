@@ -110,8 +110,6 @@ console.log('scalar1:', scalar1)
 const ans2 = myLib.math.matrix.times(eye4, scalar1);    
 console.log("🚀 ~ file: app.js ~ line 107 ~ ans2", ans2)
 
-// Solution using with statement
-
 with (myLib.math.real) {
     let ans = sub(add(20,22),mul(2,5));
     console.log('ans:', ans)
@@ -123,11 +121,8 @@ with (myLib.math) {
         complex.sub(
             complex.Num(
                 real.add(5,2), 
-                -3
-            ),
-            complex.Num(3,4)
+                
+            )
         )
     )
-    console.log('ans:', ans)
 }
-    
