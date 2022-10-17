@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 512px;
+    width: 512px;
+    background-color: lightblue;    
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div.container {
+    background-color: lightcoral;
+    border-radius: 10px;    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border: 1px solid black
+}

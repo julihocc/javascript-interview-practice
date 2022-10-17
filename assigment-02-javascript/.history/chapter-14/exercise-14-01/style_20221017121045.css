@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+div.container {
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    border-radius: 10px;    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    content
+}

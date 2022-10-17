@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;    
+    display: grid;
+    grid-template-columns: 1;
+}
