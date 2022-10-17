@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    border:1px solid #000;
+    grid-gap: 10px;
+    grid-template-row: repeat(auto-fill, 100px)
+    grid-template-columns: repeat(auto-fill, 100px);
+  }

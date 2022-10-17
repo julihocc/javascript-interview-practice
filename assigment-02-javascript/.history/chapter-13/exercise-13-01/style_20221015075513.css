@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border:1px solid #000;
+    border-radius: 5px;
+    font-size: 150%;
+  }
+
+.wrapper {
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-row: repeat(5, );
+    grid-template-columns: repeat(5, 100px);
+  }

@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border:1px solid #000;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5,fr);
+    grid-template-rows: repeat(5,fr);
+}
