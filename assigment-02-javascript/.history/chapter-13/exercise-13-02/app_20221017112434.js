@@ -6,7 +6,6 @@ const incrementN = e => {
         console.log(n);
         n++;
     }
-    console.log('Already here!');
 }
 
 const verifyN = e => {

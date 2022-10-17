@@ -13,6 +13,7 @@ const verifyN = e => {
     if (n>3) {
         b.removeEventListener('click', incrementN)
     }
+    console.log('hi');
 }
 
 b.addEventListener('click', incrementN)
