@@ -1,0 +1,17 @@
+.content {
+    /* -webkit-column-count: 3;
+    -moz-column-count: 3; */
+    column-count: 3;
+    padding-top: 35px;
+    text-align: justify;
+}
+
+.gfg {
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+.geeks {
+    text-align: center;
+}
