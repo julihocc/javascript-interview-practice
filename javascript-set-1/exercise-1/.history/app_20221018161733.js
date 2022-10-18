@@ -1,0 +1,1 @@
+const words = ['alpha', 'Alpha', 'beta', 'Gamma']
