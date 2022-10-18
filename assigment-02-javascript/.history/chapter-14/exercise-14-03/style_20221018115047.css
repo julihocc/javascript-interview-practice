@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: ;
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+}

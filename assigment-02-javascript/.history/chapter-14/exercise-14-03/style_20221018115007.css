@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: grid;
+
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+    height: ;
+}

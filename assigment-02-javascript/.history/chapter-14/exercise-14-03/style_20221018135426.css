@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#template1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.visible-article {
+    background-color: lightcoral;
+    height: 200px;
+    overflow: hidden;
+    margin:5px;
+    text-align: center;
+}
+
+.full-article {
+    /* article[0].style.height = 'auto';
+    article[0].style.visibility = 'visible';
+    article[0].style.overflow = 'visible'; */
+    height: 'auto';
+    visibility: 'visible';
+    overflow: 'visible';
+}
+
+.pic  {
+    background-color: lightblue; 
+    width: 40vmax;
+    margin: 5px;
+    float: left;
+}
+
+.snippet {
+    background-color: lightcyan; 
+    height: 200px;
+    width: 50vmax;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+ .full-snippet {    
+    /* snippet[0].style.width = '90vmax';
+    snippet[0].style.float = 'none';
+    snippet[0].style.textAlign = 'justify'; */
+    width: '90vmax';
+    
+ }

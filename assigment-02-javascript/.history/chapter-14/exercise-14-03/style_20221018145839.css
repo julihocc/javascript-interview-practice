@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+article {
+    background-color: lightcoral;
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    margin:5px;
+    text-align: center;
+}
+
+h1 {
+    background-color: lightgreen;
+}
+
+.pic  {
+    background-color: lightgray; 
+    width: 40vmax;
+    margin: 20px;
+    float: left;
+    position: sticky;
+    top:20px;
+}
+
+.snippet {
+    background-color: lightcyan; 
+    height: 200px;
+    width: 50vmax;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    text-align: justify;
+}

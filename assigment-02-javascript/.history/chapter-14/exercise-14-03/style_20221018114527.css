@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+    height: auto;
+}

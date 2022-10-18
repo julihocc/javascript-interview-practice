@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#template1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.row {
+    background-color: lightcoral;
+    display: inline;
+    height: 200px;
+    /* overflow: hidden; */
+    margin:5px;
+}
+
+.pic  {
+    background-color: lightblue; 
+    width: 400px;
+    margin: 5px;
+}
+
+.snippet {
+    background-color: lightcyan;    
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+

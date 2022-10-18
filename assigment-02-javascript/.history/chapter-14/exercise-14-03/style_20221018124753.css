@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#template1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.row {
+    background-color: lightcoral;
+    display: grid;
+    height: 200px;
+    overflow: hidden;
+    grid-template-columns: 1fr 2fr;
+    margin:5px;
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 400px;
+    margin: ;
+}
+
+.snippet {
+    background-color: lightcyan;
+    padding: 5px;
+    margin: 5px;
+}
+

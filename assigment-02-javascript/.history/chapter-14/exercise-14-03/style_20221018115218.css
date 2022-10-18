@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+    
+}

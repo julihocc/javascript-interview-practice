@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.row {
+    display: grid;
+    height: 200px;
+    overflow: hidden;
+    grid-template-columns: 1fr 2fr;
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+}

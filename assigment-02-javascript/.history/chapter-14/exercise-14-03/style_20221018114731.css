@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    
+}
+
+.pic  {
+    background-color: lightblue;
+    width: 300px;
+    height: auto;
+}

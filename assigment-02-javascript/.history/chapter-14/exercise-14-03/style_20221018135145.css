@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#template1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.visible-artic {
+    background-color: lightcoral;
+    height: 200px;
+    overflow: hidden;
+    margin:5px;
+    text-align: center;
+}
+
+.pic  {
+    background-color: lightblue; 
+    width: 40vmax;
+    margin: 5px;
+    float: left;
+}
+
+.snippet {
+    background-color: lightcyan; 
+    height: 200px;
+    width: 50vmax;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+
