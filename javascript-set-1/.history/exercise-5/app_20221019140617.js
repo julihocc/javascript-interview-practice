@@ -1,0 +1,12 @@
+
+for (const char of 'abecedario') {
+    if (vowels.includes(char)) {
+        console.log('char:', char)
+    }
+}
+
+const counting = (input) => {
+    if (typeof input === 'string') {
+
+    }
+}
