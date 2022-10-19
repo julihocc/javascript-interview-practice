@@ -1,5 +1,4 @@
 const words = ['Anne', 'apple', 'Zoe', 'zebra', 'Mississippi']
-
 // words.sort()
 // console.log('words:', words)
 

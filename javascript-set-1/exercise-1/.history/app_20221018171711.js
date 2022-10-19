@@ -1,7 +1,7 @@
 const words = ['Anne', 'apple', 'Zoe', 'zebra', 'Mississippi']
 
-// words.sort()
-// console.log('words:', words)
+words.sort()
+console.log('words:', words)
 
 const ascLexOrder = (a,b) => {
     if (a<b) {
