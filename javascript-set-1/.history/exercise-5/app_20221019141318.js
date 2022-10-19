@@ -9,12 +9,12 @@ const counting = (input) => {
                 counter++;
             }
         }
-        return counter
     }
 
     if (typeof input === 'number') {
         return Math.floor(Math.log(input)/Math.log(10)) + 1
     }
+
     
 }
 

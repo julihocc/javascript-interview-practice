@@ -15,6 +15,7 @@ const counting = (input) => {
     if (typeof input === 'number') {
         return Math.floor(Math.log(input)/Math.log(10)) + 1
     }
+
     
 }
 
