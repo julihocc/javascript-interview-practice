@@ -1,0 +1,11 @@
+const test = (r, s) => {
+    const regexp = new RegExp(r);
+    console.log(`${s} satisfies at least one match for ${r}: ${regexp.test(s)}`)
+} 
+
+// a.)
+test('.abc', 'zabc')
+test('a+b?!!1{4}', 'a!!1111')
+
+
+
