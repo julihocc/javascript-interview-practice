@@ -1,0 +1,2 @@
+const testString = "abcXYZ"
+for 

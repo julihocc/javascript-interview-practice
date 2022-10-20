@@ -1,0 +1,1 @@
+const testString = "abcXYZ09"
