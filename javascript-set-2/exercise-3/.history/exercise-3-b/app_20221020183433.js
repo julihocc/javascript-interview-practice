@@ -7,8 +7,7 @@ console.log(genAnchorTag('happiness'));
 
 const longTextContainer = document.getElementById('longTextContainer')
 const longText = longTextContainer.innerHTML
-const word = 'happiness'
-const re = new RegExp(`^${word}&`)
+const word = 'happines'
 const a = genAnchorTag(word)
 const newLongText = longText.replace(word, a);
 longTextContainer.innerHTML = newLongText
