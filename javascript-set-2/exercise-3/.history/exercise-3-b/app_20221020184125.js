@@ -3,13 +3,12 @@ const twitterHashtag = (word) => `https://twitter.com/search?q=%23${word}`
 const genAnchorTag = (word) => `<a href ="
 ${twitterHashtag(word)}">#${word}</a>`
 
+console.log(genAnchorTag('happiness'));
 
 const longTextContainer = document.getElementById('longTextContainer')
 const longText = longTextContainer.innerHTML
-const word = 'happiness'
-//https://stackoverflow.com/questions/5752829/regular-expression-for-exact-match-of-a-string
-const re = new RegExp(`\\b${word}\\b`)
-console.log('re:', re)
+const word = 'sport'
+const re = new RegExp(`\${word}`)
 const a = genAnchorTag(word)
 const newLongText = longText.replace(re, a);
 longTextContainer.innerHTML = newLongText
