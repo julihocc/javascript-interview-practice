@@ -69,9 +69,9 @@ const addEditArea = child => {
         const content = child.querySelector('.noteTextContent')
         content.innerHTML = newNoteText
 
-        child.lastUpdate = new Date(Date.now())
-        const lastUpdateDiv = child.querySelector('.lastUpdateDiv')
-        lastUpdateDiv.innerHTML = "Last Update: "+child.lastUpdate
+        // child.lastUpdate = new Date(Date.now())
+        // const lastUpdateDiv = child.getElementByClass(' lastUpdateDiv')
+        // console.log(lastUpdateDiv);
 
         editNoteDiv.style.display = 'none'
     })
@@ -100,7 +100,7 @@ const generateNotes = (element) => {
             createNoteDiv(element, key, currentNote)
         }
     }
-    for (const child of element.querySelectorAll('.noteDiv')) {
+    for (const child of element.querySelectorAll()) {
         child['firstUpdate'] = new Date(parseInt(child.id))
         child['lastUpdate'] = new Date(parseInt(child.id))
         

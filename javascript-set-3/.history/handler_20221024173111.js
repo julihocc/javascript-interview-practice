@@ -71,7 +71,7 @@ const addEditArea = child => {
 
         child.lastUpdate = new Date(Date.now())
         const lastUpdateDiv = child.querySelector('.lastUpdateDiv')
-        lastUpdateDiv.innerHTML = "Last Update: "+child.lastUpdate
+        lastUpdateDiv.innerHTML = "Last Update: "+lastUpdate
 
         editNoteDiv.style.display = 'none'
     })

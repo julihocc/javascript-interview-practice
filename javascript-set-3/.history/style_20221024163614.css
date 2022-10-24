@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.noteDiv {
+.note {
     background-color: lightcoral;
     border: 1px solid black;
     margin: 2px;
@@ -18,19 +18,12 @@
 }
 
 .noteTextContent {
-    background-color: pink;
+    background-color: aliceblue;
     margin: 5px;
     padding: 5px;
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.editNoteTextArea {
-    color: red;
-    width: 100%;
-    padding: 5px;
-}
-
 
 #newNote {
     width: 500px;
@@ -48,7 +41,7 @@
 #clearNotes {
     position: relative;
     bottom: -20px;
-    left: 200px;
+    left: 50%;
 }
 
 #inputArea {
@@ -56,4 +49,9 @@
     padding: 5px;
 }
 
+#editNoteTextArea {
+    color: blue;
+    width: 500px;
+    padding: ;
+}
 

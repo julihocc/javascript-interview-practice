@@ -12,7 +12,8 @@ submitNewNote.addEventListener("click", event => {
     event.preventDefault();
     let noteText = inputArea.value
     // console.log('noteText:', noteText)
-    const id = Date.now()    
+    const id = Date.now()
+    console.log(id);
     if (inputArea.value) {
         localStorage.setItem(id, noteText)
     }

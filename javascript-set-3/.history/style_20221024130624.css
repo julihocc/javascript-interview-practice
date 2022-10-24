@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;    
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#newNote {
+    width: 500px;
+    margin: 10px;
+}
+
+#notesContainer {
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 500px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#clearNotes {
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+}
+
+textarea {
+    padding: 10px;
+}
+
+.note {
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+
+.updateDiv {
+    background-color: lightcyan;
+    border: 2px solid black;
+    display: none;
+}
+
+.noteTextContent {
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    sans-serif;
+}

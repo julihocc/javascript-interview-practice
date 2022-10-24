@@ -2,7 +2,7 @@ const createNoteDiv = (element, key, currentNote) => {
     // element.innerHTML += `<li id="${key}">${currentNote}</li>`
     const newDiv = document.createElement('div')
     newDiv.setAttribute('id', key)
-    newDiv.setAttribute('class', 'noteDiv')
+    newDiv.setAttribute('class', 'note')
     const newPar = document.createElement('p')
     newPar.setAttribute('class', 'noteTextContent')
     newPar.innerHTML = currentNote
@@ -65,30 +65,14 @@ const addEditArea = child => {
     updateButton.addEventListener('click', event => {
         event.preventDefault();
         const newNoteText = editNoteTextArea.value;
-        // child.firstChild.innerHTML = newNoteText
-        const content = child.querySelector('.noteTextContent')
-        content.innerHTML = newNoteText
-
-        child.lastUpdate = new Date(Date.now())
-        const lastUpdateDiv = child.querySelector('.lastUpdateDiv')
-        lastUpdateDiv.innerHTML = "Last Update: "+child.lastUpdate
-
+        child.firstChild.innerHTML = newNoteText
+        // console.log(child.firstChild.innerHTML)
         editNoteDiv.style.display = 'none'
     })
 
     child.appendChild(editNoteDiv)
 }
 
-const addDatesDiv = child => {
-    const creationDiv = document.createElement('div')
-    creationDiv.setAttribute('class', 'creationDiv')
-    creationDiv.innerHTML = "Creation date: "+child.firstUpdate
-    child.appendChild(creationDiv)
-    const updateDiv = document.createElement('div')
-    updateDiv.setAttribute('class', 'lastUpdateDiv')
-    updateDiv.innerHTML = "Last update: "+child.firstUpdate
-    child.appendChild(updateDiv)
-}
 
 const generateNotes = (element) => {
 
@@ -100,15 +84,13 @@ const generateNotes = (element) => {
             createNoteDiv(element, key, currentNote)
         }
     }
-    for (const child of element.querySelectorAll('.noteDiv')) {
-        child['firstUpdate'] = new Date(parseInt(child.id))
-        child['lastUpdate'] = new Date(parseInt(child.id))
-        
-        
+    for (const child of element.children) {
+        console.log(child);
+        child['lastUpdate'] = 0;
+        log
         addDeleteButton(child);
         addUpdateOption(child);
         addEditArea(child);
-        addDatesDiv(child);
     }
 }
 

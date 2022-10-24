@@ -2,7 +2,7 @@ const createNoteDiv = (element, key, currentNote) => {
     // element.innerHTML += `<li id="${key}">${currentNote}</li>`
     const newDiv = document.createElement('div')
     newDiv.setAttribute('id', key)
-    newDiv.setAttribute('class', 'noteDiv')
+    newDiv.setAttribute('class', 'note')
     const newPar = document.createElement('p')
     newPar.setAttribute('class', 'noteTextContent')
     newPar.innerHTML = currentNote
@@ -65,13 +65,13 @@ const addEditArea = child => {
     updateButton.addEventListener('click', event => {
         event.preventDefault();
         const newNoteText = editNoteTextArea.value;
-        // child.firstChild.innerHTML = newNoteText
-        const content = child.querySelector('.noteTextContent')
-        content.innerHTML = newNoteText
+        child.firstChild.innerHTML = newNoteText
 
-        child.lastUpdate = new Date(Date.now())
-        const lastUpdateDiv = child.querySelector('.lastUpdateDiv')
-        lastUpdateDiv.innerHTML = "Last Update: "+child.lastUpdate
+        
+
+        // child.lastUpdate = new Date(Date.now())
+        // const lastUpdateDiv = child.getElementByClass(' lastUpdateDiv')
+        // console.log(lastUpdateDiv);
 
         editNoteDiv.style.display = 'none'
     })
@@ -100,15 +100,14 @@ const generateNotes = (element) => {
             createNoteDiv(element, key, currentNote)
         }
     }
-    for (const child of element.querySelectorAll('.noteDiv')) {
+    for (const child of element.children) {
         child['firstUpdate'] = new Date(parseInt(child.id))
         child['lastUpdate'] = new Date(parseInt(child.id))
         
-        
+        // addDatesDiv(child);
         addDeleteButton(child);
         addUpdateOption(child);
         addEditArea(child);
-        addDatesDiv(child);
     }
 }
 
