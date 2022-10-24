@@ -47,7 +47,7 @@
 
 #clearNotes {
     position: relative;
-    left: 100px;
+    right: 0px;
 }
 
 #submitNewNote {
