@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;    
+    
+}
+
+#newNote {
+    display: flex;    
+}
+
+#notesContainer {
+    border: 1px solid black;
+}
+
+.note {
+
+}

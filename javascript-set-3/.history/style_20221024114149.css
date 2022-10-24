@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;    
+    padding: 0;
+    margin: 0;
+}
+
+#newNote {
+    display: flex;    
+    width: 500px;
+    margin: 10px;
+}
+
+#notesContainer {
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 500px;
+    margin: 10px;
+}
+
+.note {
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin: 2px
+}

@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;    
+    padding: 0;
+    margin: 0;
+}
+
+#newNote {
+    display: flex;    
+}
+
+#notesContainer {
+    border: 1px solid black;
+}
+
+.note {
+
+}
